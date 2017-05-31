@@ -1,0 +1,62 @@
+/*头部样式*/
+	.weui-wheader {
+		bottom: inherit;
+		top: 0;
+		height: 43px;
+		line-height: 53px;
+		background:#ed4040;
+		text-align: center;
+		position: fixed;
+		top:0;
+	}
+	
+	.weui-wheader p {
+		width: 100%;
+		font-size: 20px;
+	    color: white;
+	}
+
+/*轮播图样式*/
+.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}	
+.swiper-img {
+		width: 100%;
+	}
+	
+
+/*公共底部样式*/
+.weui-tabbar {
+		position: fixed;
+		bottom: 0;
+	}
+
+/*搜索框样式*/
+.weui-search-bar{
+    margin-top:43px;
+}
+
+/*新闻列表样式*/
+.weui_panel_access{
+	padding-bottom: 60px;
+}
+
+/*美女列表页样式*/
+.meinvlist{
+	margin-top:43px;
+}
