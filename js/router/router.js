@@ -33,12 +33,12 @@
 				templateUrl: "template/yule.html",
 				controller: "yuleCtrl"
 			})
-//			//新闻详情页
-//			.state("detail", {
-//				url: "/detail/:id",
-//				templateUrl: "template/detail.html",
-//				controller: "detailCtrl"
-//			});
+			//新闻详情页
+			.state("newsDetail", {
+				url: "/newsDetail",
+				templateUrl: "template/newsDetail.html",
+				controller: "newsDetailCtrl"
+			});
         //默认显示
 		$urlRouterProvider.when("", "/index")
 	}])

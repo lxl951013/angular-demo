@@ -1,7 +1,7 @@
 <!--新闻页面列表组件-->
 <div class="weui_panel weui_panel_access">
 	<div class="weui_panel_bd">
-		<a ng-repeat="news in arr|filter:searchName" ng-href="#/detail/{{a.channelId}}" class="weui-media-box weui-media-box_appmsg">
+		<a ng-repeat="news in arr|filter:searchName" ng-href="#/newsDetail" class="weui-media-box weui-media-box_appmsg">
 			<div class="weui-media-box__hd">
 				<img class="weui-media-box__thumb" ng-src="{{news.pictures?news.pictures.img:''}}" alt="">
 			</div>

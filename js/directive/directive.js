@@ -61,6 +61,6 @@
 		   		templateUrl:'directives/yulelist.html'
 		}
 	});
-	
+		
 	
 })();

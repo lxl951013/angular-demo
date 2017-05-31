@@ -41,7 +41,7 @@
 				params:{					
 		   	  	  	"showapi_appid": '38971',
 		   	  	  	"showapi_sign": '82c3ab13d16840a19f36a553a20cf71b',
-		   	  	  	"page":'1',
+		   	  	  	page:$scope.page++
 				}
 			}).then(function(data){
 				$scope.isLoad=false;
@@ -150,5 +150,9 @@
 			})
 		};
 		$scope.yulelist();
+	});
+	//详情页
+	controllers.controller('newsDetailCtrl',function($scope){
+		
 	});
 })();
