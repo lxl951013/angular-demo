@@ -35,9 +35,27 @@
 			})
 			//新闻详情页
 			.state("newsDetail", {
-				url: "/newsDetail",
-				templateUrl: "template/newsDetail.html",
+				url: "/newsDetail/:id",
+				templateUrl: "directives/newsDetail.html",
 				controller: "newsDetailCtrl"
+			})
+			//美女详情页
+			.state("meinvDetail", {
+				url: "/meinvDetail/:id",
+				templateUrl: "directives/meinvDetail.html",
+				controller: "meinvDetailCtrl"
+			})
+			//军事详情页
+			.state("junshiDetail", {
+				url: "/junshiDetail/:id",
+				templateUrl: "directives/junshiDetail.html",
+				controller: "junshiDetailCtrl"
+			})
+			//娱乐详情页
+			.state("yuleDetail", {
+				url: "/yuleDetail/:id",
+				templateUrl: "directives/yuleDetail.html",
+				controller: "yuleDetailCtrl"
 			});
         //默认显示
 		$urlRouterProvider.when("", "/index")

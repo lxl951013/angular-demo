@@ -1,0 +1,28 @@
+<!--军事列表详情页-->
+<div class="page article js_show">
+	<div class="page__bd">
+		<article class="weui-article">
+			<section>
+				<h2 class="title">{{junshis.title}}</h2>
+				<section>
+					<h3>{{junshis.content}}</h3>
+					<p>
+						{{junshis.pubDate}}
+					</p>
+					<p>
+						<img ng-src="{{junshis.imageurls[0].url}}" alt="">
+					</p>
+				</section>
+			</section>
+		</article>
+	</div>
+	<div class="weui-gallery" style="display: {{isShowGallery?'block':'none'}};">
+		<span class="weui-gallery__img" style="background-image: url({{newData.image}});"></span>
+		<div class="weui-gallery__opr">
+			<a ng-click="isShowGallery=false" href="javascript:" class="weui-gallery__del">
+				<!--<i class="weui-icon-delete weui-icon_gallery-delete">隐藏</i>-->
+				<p style="color: white;">隐藏</p>
+			</a>
+		</div>
+	</div>
+</div>

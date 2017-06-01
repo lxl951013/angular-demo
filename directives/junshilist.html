@@ -1,7 +1,7 @@
 <!--军事页面列表组件-->
 <div class="weui_panel weui_panel_access" ng-style="{'marginTop':'43px'}">
 	<div class="weui_panel_bd">
-		<a ng-repeat="junshi in arr" ng-href="#/detail/{{a.channelId}}" class="weui-media-box weui-media-box_appmsg">
+		<a ng-repeat="junshi in arr" ng-href="#/junshiDetail/{{junshi.id}}" class="weui-media-box weui-media-box_appmsg">
 			<div class="weui-media-box__hd">
 				<img class="weui-media-box__thumb" ng-src="{{junshi.imageurls[0].url}}" alt="">
 			</div>
